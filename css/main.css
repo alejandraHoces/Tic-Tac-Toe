@@ -6,7 +6,7 @@
 }
 
 .tictactoe {
-    margin: 100px auto 0;
+    margin: 70px auto 0;
     border-collapse: collapse;
     border: 1px hidden;
 }
@@ -14,7 +14,7 @@
 h1 {
   text-align: center;
   color:	 #ffff1a;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .tictactoe td {
@@ -26,14 +26,19 @@ h1 {
 
 }
 
+#winner {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+}
 
-.b-reset {
+#b-reset {
   padding: 18px;
   font-size: 20px;
   background-color: red;
   color: white;
   margin-top: 50px;
-  margin-left: 590px;
+  margin-left: 46%;
   border: none;
   border-radius: 8px;
 }
